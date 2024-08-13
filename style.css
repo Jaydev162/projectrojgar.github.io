@@ -19,7 +19,7 @@ color:#242424;
 }
 
 
-.heading{
+.heading a{
 font-size:28px;
 width:100%;
 border-bottom:1px solid #46p7c1;
@@ -27,12 +27,35 @@ margin-bottom:20px;
 color:#46b7c1;	
 
  }
-.header
-{    color:#567800;
+
+.header a 
+{   
+	 width:100%;
+     height:10%;
      text-align:center;
-	 background:#46b7c1;
-	 padding:6px;
-	 font-size:20px;
+	 background:#fff;
+	 padding:10px;
+	 font-size:25px;
+	 text-decoration:none;
+	 border-style:solid;
+	 
+}
+
+
+
+INPUT {
+ width:50%;
+ height:5%;
+}
+
+form
+{
+	border-style:solid;
+	height:100%;
+	width:80%;
+	background:pink;
+	
+	
 }
 
  .logo
@@ -51,9 +74,20 @@ color:#46b7c1;
  background:#fff;
  text-decoration:none;
  font-size:25px;
- padding:7px 30px;
+ padding:7px 10px;
  width:100%;
- margin:95px;
+ margin:40px;
+ box-sizing:message-box;
+ }
+ .box5{
+ color:black;
+ background:lightblue;
+ 
+ font-size:20px;
+
+ width:10%;
+
+
  box-sizing:message-box;
  }
  .slider img {
@@ -69,7 +103,22 @@ color:#46b7c1;
     gap: 20px; 
     padding: 20px;
 }
-
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    padding: 20px;
+}
+.box4{
+	width:30%;
+	background:blue;
+	height:100%;
+	color:white;
+	text-decoration:none;
+	font-size:25px;
+	font-family:Times New Roman;
+	
+}
 
 .box1 {
     background-color: #f2f2f2; 
@@ -92,4 +141,5 @@ color:#46b7c1;
     border: 1px solid #ccc;
     flex: 1;
 	height:40%;
+	width:100%;
 	}
